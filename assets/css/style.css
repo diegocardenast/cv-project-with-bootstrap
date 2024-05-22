@@ -91,7 +91,7 @@ header {
 
 .logo {
     background: url("../images/diego.jpg");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -163,6 +163,10 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+.text-justify {
+    text-align: justify !important;
 }
 
 /*--------------------------------------------Hover.css*/
@@ -370,4 +374,5 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+
 }
