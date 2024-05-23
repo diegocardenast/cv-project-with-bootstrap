@@ -15,7 +15,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #00308f;
 }
 
 .bg-color-contact {
@@ -364,6 +364,46 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #e84610;
 }
+
+/* ----------------------------------------Education History */
+
+.education-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.education-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 1.8em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: black;
+}
+
+.education-item p {
+    padding: 0;
+    margin: 0;
+}
+
+
 
 /* ----------------------------------------Media Queries */
 
